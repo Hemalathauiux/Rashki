@@ -1,0 +1,138 @@
+.container1{
+    background-color: black;
+    text-align: center;
+    color: white;
+
+}
+.Head{
+    text-align: center;
+    margin: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 30px;
+   
+}
+
+.Bag{
+    text-align: center;
+}
+.Bag1{
+    text-align: center;
+}
+
+.percent{
+    background-color: red;
+   width: 80px;
+   text-align: center;
+   letter-spacing: 2px;
+   align-items: baseline;
+   margin-left: 90px;
+ 
+
+   
+}
+.cost{
+    word-spacing: 15px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+/* 
+.button{
+ border-color: red;
+ 
+}
+.button:hover{
+
+
+}
+ */
+/* Button Styling */
+/* .button{
+    position: relative;
+    padding: 10px 20px;
+    background-color: #4CAF50;  
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+}
+
+
+.button:hover {
+   
+}
+
+
+
+ */
+
+ .button {
+ 
+    display: inline-block;
+  
+    font-size: 18px;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #000;
+    overflow: hidden;
+    cursor: pointer;
+    transition: color 0.4s;
+    margin-left: 70px;
+    width: 40%;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: black;
+    color: white;
+}
+
+
+.button:hover::before {
+    left: 0;
+}
+
+.button-text {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+    .button{
+        margin-left: 10px;
+        margin-bottom: 10px;
+        width: 120px;
+        
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .percent{
+        margin-left: 30px;
+        
+    }
+
+}
+
+
+@media screen and (max-width:900px) {
+    
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+}

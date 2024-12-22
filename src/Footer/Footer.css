@@ -1,0 +1,77 @@
+.know{
+    background-color: rgb(133, 133, 234);
+    color: white;
+   text-align: center;
+   padding: 25px;
+}
+.know1{
+    text-align: center;
+    margin: 10px;
+}
+.logo img{
+    width: 13%;
+    margin: 20px;
+
+}
+.icon1:hover{
+    transform: scale(1.1);
+
+}
+
+
+
+
+.deliver{
+    text-align: center;
+}
+.icons{
+   
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    margin-left: 25%; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.service{
+    text-align: center;
+}
+
+.Un{
+    margin-left: 60px;
+}
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+    .icons{
+   
+       
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-left: 20px;
+       
+      /*   margin-top: 30px; */
+    
+    }
+    
+}
+
+@media screen and (max-width:900px) {
+    .logo{
+   
+       width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-left: 20px;
+      margin-left: 50px;
+      /*   margin-top: 30px; */
+    
+    }
+    
+}
